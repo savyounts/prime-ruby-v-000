@@ -3,11 +3,12 @@
 
 def prime?(num)
   array = (2..num-1).to_a
-  if num > 0
   prime = array.all? do |i|
     num % i != 0
-  else
-    false
   end
+  if prime == true && num > 0 
+    true 
+  else 
+    false
 end
 end
