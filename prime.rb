@@ -6,6 +6,8 @@ def prime?(num)
   if num > 0
  array.all? do |i|
     num % i != 0 && num > 0
+  else
+    false 
   end
    
   end
