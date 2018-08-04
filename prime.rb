@@ -3,7 +3,7 @@
 require "pry"
 def prime?(num)
   array = (2..num-1).to_a
-  if num > 0
+  if num > 1
  array.all? do |i|
     num % i != 0
   end
