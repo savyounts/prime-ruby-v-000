@@ -7,5 +7,5 @@ def prime?(num)
   prime = array.all? do |i|
     num % i != 0
   end
-  
+end
 end
