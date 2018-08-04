@@ -5,6 +5,7 @@ def prime?(num)
   array = (2..num-1).to_a
   array.all? do |i|
     num % i != 0 
-    binding.pry
+   
 end
-end
+end 
+binding.pry
