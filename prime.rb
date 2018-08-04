@@ -6,6 +6,6 @@ def prime?(num)
  array.all? do |i|
     num % i != 0 && num > 0
    
-end
+  end
 end 
 binding.pry
